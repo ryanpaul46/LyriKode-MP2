@@ -1,6 +1,12 @@
+import { defineConfig } from 'vite';
+
+
 const path = require('path')
 
-export default {
+export default defineConfig ({
+
+  base: "/LyriKode-MP2",
+
   root: path.resolve(__dirname, 'src'),
   resolve: {
     alias: {
@@ -10,5 +16,7 @@ export default {
   server: {
     port: 8080,
     hot: true
+
+
   }
-}
+});
