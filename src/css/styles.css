@@ -1,6 +1,6 @@
 body{
     width: 100%;
-    background-image: url(/img/lyricswebsitebg.jpg) ;
+    background-image: url(/src/img/lyricswebsitebg.jpg) ;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
@@ -26,6 +26,9 @@ body{
    margin-top: 50px;
    margin-right: 30px;
  
-   
+ }
+
+ .bg-image{
+    margin-top: 50px;
  }
  

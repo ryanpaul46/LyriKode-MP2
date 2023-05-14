@@ -1,5 +1,5 @@
-import '../scss/styles.scss'
-import '../css/styles.css'
+import '/src/scss/styles.scss'
+import '/src/css/styles.css'
 import * as bootstrap from 'bootstrap'
 
 const searchInput = document.getElementById('search-input');
