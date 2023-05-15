@@ -35,7 +35,7 @@ async function displayResult(){
       document.getElementById('search-results').innerHTML =currentItems.map(song => `
         <div>
           <h2>${song.song}</h2>
-          <p>Artist: ${song.artist}</p>
+          <h4>Artist: ${song.artist}</h4>
           <p>Album: ${song.album}</p>
           <a href="${songLink}" target="_blank">View Lyrics</a>
         </div>
